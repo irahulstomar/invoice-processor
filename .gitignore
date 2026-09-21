@@ -1,0 +1,28 @@
+# Secrets
+.env
+.env.local
+.env.*.local
+
+# Python
+backend/venv/
+__pycache__/
+*.pyc
+*.db
+backend/uploads/
+
+# Gmail OAuth secrets
+backend/credentials.json
+backend/token.json
+
+# Node / Next
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
